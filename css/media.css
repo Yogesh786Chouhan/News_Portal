@@ -1,0 +1,96 @@
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+    .topbar{
+        flex-direction: column;
+    }
+    .topbar-left{
+        width: 100%;
+    }
+    .topbar-left ul {
+        flex-direction: column;
+    }
+    .topbar-left ul li{
+        border-right: 0;
+        text-align: center;
+    }
+    .topbar-right{
+        width: 100%;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 10px;
+        padding: 20px 0;
+    }
+    /* nav */
+    nav ul {
+        flex-direction: column;
+    }
+    /* main section */
+    #main_title{
+        border: 0px;
+        margin-left: 10px;
+    }
+    .news-content{
+        flex-direction: column;
+    }
+    .news-left-slider{
+        width: 100%;
+    }
+    .features{
+        width: 90%;
+    }
+    .news-rigth-data{
+        width: 100%;
+    }
+    /* news-post-content */
+    .news-post-content{
+        flex-direction: column;
+    }
+    .news-left-data{
+        width: 100%;
+    }
+    .post-main-data{
+        flex-direction: column;
+    }
+    .post-data-content{
+        width: 94%;
+        margin-left: 12px;
+    }
+    .post-listing-content{
+        width: 100%;
+    }
+    .sigle-post-content{
+        margin-left: 0;
+        padding: 12px;
+    }
+    .news-right-sidebar{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ad-image{
+        padding: 23px;
+    }
+    /* end news-post-content  */
+    /* food post */
+    .food-post{
+        flex-direction: column;
+    }
+    .food-box{
+        width: 100%;
+    }
+    .food-box-data{
+        margin: 5px;
+    }
+    .food-box-data h3 a, ul {
+        padding-left: 8px;
+    }
+    /* footer */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-left, .footer-middle, .footer-right{
+        width: 100%;
+    }
+}
